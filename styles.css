@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+svg:hover g {
+    stroke: white !important;
+}
+
+svg:hover {
+    cursor: pointer;
+}
+
+.customfont {
+    font-family: 'Spartan', sans-serif;
+}
+
+@media only screen and (max-width:636px) {
+    #main {
+        margin-top: 140px;
+    }
+}
