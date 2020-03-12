@@ -37,9 +37,11 @@ projects.onclick = async() => {
     }
 }
 const posts = [
+    ["Typing in Programming Languages", "March 11, 2020"],
     ["Hello World", "March 3, 2020"]
 ];
 const idify = string => string.toLowerCase().replace(/\s/g, "-");
+const converter = new showdown.Converter();
 blog.onclick = () => {
     if (mode !== "blog") {
         mode = "blog";
@@ -50,8 +52,8 @@ blog.onclick = () => {
             posts.map(([name]) => idify(name)).forEach(id => {
                 document.getElementById(id).onclick = async() => {
                     mode = id;
-                    const html = await fetch(`${id}.html`);
-                    const text = await html.text();
+                    const md = await fetch(`${id}.md`);
+                    const text = converter.makeHtml(await md.text());
                     main.classList.remove("w3-animate-left")
                     setTimeout(() => {
                         main.innerHTML = text;
