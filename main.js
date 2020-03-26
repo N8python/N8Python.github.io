@@ -37,6 +37,7 @@ projects.onclick = async() => {
     }
 }
 const posts = [
+    ["Phaser Review", "March 25, 2020"],
     ["Typing in Programming Languages", "March 11, 2020"],
     ["Hello World", "March 3, 2020"]
 ];
