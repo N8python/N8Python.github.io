@@ -20,4 +20,5 @@ In general, the API of Phaser was intuitively designed and it was easy to unders
 Phaser is an all-around amazing game development library. It's API serves as a role model for other libraries to follow, and with some better documentation, phaser would be a near-perfect example of how a library should be built.
 
 See you next time,
+
 N8
