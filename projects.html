@@ -1,6 +1,37 @@
+<h6 class="w3-center w3-text-white customfont"><a href="#mnist"><u>MNIST Latent Space</u></a> | <a href="#catCreator"><u>Cat Creator</u></a> | <a href="#sentLSTM"><u>Sentiment Analysis AI</u></a> | <a href="#chessAI"><u>Chess AI</u></a> <br><a href="#boombaZoomba"><u>Boomba Zoomba</u></a> | <a href="#zLang"><u>Z Language</u></a>    | <a href="#photonic"><u>Photonic</u></a> | <a href="#apolloX"><u>Apollo X</u></a>
+    <br> <a href="#germCity"><u>Germ City</u></a> | <a href="#potatoz2"><u>Potatoz</u></a> | <a href="#mysticalField"><u>The Mystical Field</u></a> <br> <a href="#epidemicSimulation"><u>Epidemic Simulation</u></a> | <a href="#covid19dashboard"><u>Coronavirus Dashboard</u></a></h6>
 <div class="row">
     <br>
-    <div style="border:2px solid white;cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/lil-chess/')">
+    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/mnistLatentSpace/')" id="mnist">
+        <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
+            MNIST Latent Space
+        </h1>
+        <img class="w3-margin" src="mnistLatent.png">
+        <p class="w3-large w3-text-white customfont w3-margin">Explore the wonderful world of the MNIST latent space. The MNIST dataset is an open-source colllection of 60,000 numbers. I trained a neural network on the dataset, and then by using what it learned, you can explore the space "in between" different
+            numbers. It's sort of hard to explain - just click on this experiment and you'll see.</p>
+    </div>
+    <br>
+    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/catCreator/')" id="catCreator">
+        <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
+            Cat Creator with Convnets
+        </h1>
+        <img class="w3-margin" width="500px" src="catconv.png">
+        <p class="w3-large w3-text-white customfont w3-margin">A convultional autoencoder trained on cats... sliders to modify the latent space... you can make tons of CUSTOM CATS! Use the sliders in this app to create any cat you could possibly *imagine!</p>
+        <p class="w3-small w3-text-white customfont w3-margin">*if that cats that you imagine are all 64x64 pixels and very blurry.</p>
+    </div>
+</div>
+<div class="row">
+    <br>
+    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://sentiments-lstm.herokuapp.com/')" id="sentLSTM">
+        <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
+            Sentiment Analysis AI
+        </h1>
+        <img class="w3-margin" width="90%" src="sentiment.png">
+        <p class="w3-large w3-text-white customfont w3-margin">This LSTM was trained on a dataset of hundreds of thousands of tweets <a href="#" onclick="window.open('https://www.kaggle.com/kazanova/sentiment140')">(Sentiment140 Dataset)</a>. From these tweets, it learned to detect sentiment and tone of short
+            messages. The LSTM will give a number between -1 (very negative) and 1 (very positive). Go try it out now!</p>
+    </div>
+    <br>
+    <div style="border:2px solid white;cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/lil-chess/')" id="chessAI">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             Chess AI
         </h1>
@@ -8,8 +39,16 @@
         <p class="w3-large w3-text-white customfont w3-margin">This chess AI uses minimax and material evaluation with piece tables to choose moves. Enjoy a beautiful-ish GUI and an intuitive dashboard. Test your skill against this amazing AI that plays at the level of a third grader! (En Passant isn't and
             will never be implemented)</p>
     </div>
-    <br>
-    <div style="border:2px solid white;cursor:pointer;" class="col" onclick="window.open('https://zlanguage.github.io/')">
+</div>
+<div class="row">
+    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://boomba-zoomba.herokuapp.com/')" id="boombaZoomba">
+        <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
+            Boomba Zoomba
+        </h1>
+        <img class="w3-margin" src="boomba-zoomba.png">
+        <p class="w3-large w3-text-white customfont w3-margin">Become the ultimate warrior by commandeering a ragdoll to beat up other ragdolls. Enjoy singleplayer & multiplayer modes - and unlock all sorts of fun and weird custom hats.</p>
+    </div>
+    <div style="border:2px solid white;cursor:pointer;" class="col" onclick="window.open('https://zlanguage.github.io/')" id="zLang">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             The Z Programming Language
         </h1>
@@ -21,43 +60,7 @@
 </div>
 <div class="row">
     <br>
-    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://boomba-zoomba.herokuapp.com/')">
-        <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
-            Boomba Zoomba
-        </h1>
-        <img class="w3-margin" src="boomba-zoomba.png">
-        <p class="w3-large w3-text-white customfont w3-margin">Become the ultimate warrior by commandeering a ragdoll to beat up other ragdolls. Enjoy singleplayer & multiplayer modes - and unlock all sorts of fun and weird custom hats.</p>
-    </div>
-    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/mnistLatentSpace/')">
-        <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
-            MNIST Latent Space
-        </h1>
-        <img class="w3-margin" src="mnistLatent.png">
-        <p class="w3-large w3-text-white customfont w3-margin">Explore the wonderful world of the MNIST latent space. The MNIST dataset is an open-source colllection of 60,000 numbers. I trained a neural network on the dataset, and then by using what it learned, you can explore the space "in between" different
-            numbers. It's sort of hard to explain - just click on this experiment and you'll see.</p>
-    </div>
-</div>
-<div class="row">
-    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://sentiments-lstm.herokuapp.com/')">
-        <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
-            Sentiment Analysis AI
-        </h1>
-        <img class="w3-margin" width="90%" src="sentiment.png">
-        <p class="w3-large w3-text-white customfont w3-margin">This LSTM was trained on a dataset of hundreds of thousands of tweets <a href="#" onclick="window.open('https://www.kaggle.com/kazanova/sentiment140')">(Sentiment140 Dataset)</a>. From these tweets, it learned to detect sentiment and tone of short
-            messages. The LSTM will give a number between -1 (very negative) and 1 (very positive). Go try it out now!</p>
-    </div>
-    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/catCreator/')">
-        <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
-            Cat Creator with Convnets
-        </h1>
-        <img class="w3-margin" width="500px" src="catconv.png">
-        <p class="w3-large w3-text-white customfont w3-margin">A convultional autoencoder trained on cats... sliders to modify the latent space... you can make tons of CUSTOM CATS! Use the sliders in this app to create any cat you could possibly *imagine!</p>
-        <p class="w3-small w3-text-white customfont w3-margin">*if that cats that you imagine are all 64x64 pixels and very blurry.</p>
-    </div>
-</div>
-<div class="row">
-    <br>
-    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/Photonic/')">
+    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/Photonic/')" id="photonic">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             Photonic
         </h1>
@@ -65,7 +68,7 @@
         <p class="w3-large w3-text-white customfont w3-margin">This is a single-player game where you can explore a procedurally generated world with a single torch. Has block breaking, placing, and even crafting. And no, it was totally not in any way inspired by Minecraft. There is no objective, and this
             is more of a test than a true game. Do not expect any updates in the future.</p>
     </div>
-    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/apolloX/')">
+    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/apolloX/')" id="apolloX">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             Apollo X
         </h1>
@@ -75,7 +78,7 @@
 </div>
 <div class="row">
     <br>
-    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/germCity/')">
+    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/germCity/')" id="germCity">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             Germ City
         </h1>
@@ -83,7 +86,7 @@
         <p class="w3-large w3-text-white customfont w3-margin">Behold - the most advanced person-to-person epidemic simulation on this side of the mississippi (*not technically correct)! Think of my epidemic simulator, but with an actual city, more advanced AI, jobs, schools, hospitals... the list goes on!
             Try to prevent a deadly disease from spreading - but be careful, as you must balance your budget. (Note, this game is not fully completed, nor will it ever be. It will not save your progress).</p>
     </div>
-    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/walkingAI/')">
+    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/walkingAI/')" id="walkingAI">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             Walking AI
         </h1>
@@ -94,7 +97,7 @@
 </div>
 <div class="row">
     <br>
-    <div style="border:2px solid white; cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/potatoz2/')">
+    <div style="border:2px solid white; cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/potatoz2/')" id="potatoz2">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             Potatoz
         </h1>
@@ -102,7 +105,7 @@
         <p class="w3-large w3-text-white customfont w3-margin">This incremental clicker I made got a bit of attention and recieved over 20,000 views online. Play now, and start the potatopocalypse.</p>
     </div>
     <br>
-    <div style="border:2px solid white;cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/mysticalField/')">
+    <div style="border:2px solid white;cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/mysticalField/')" id="mysticalField">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             The Mystical Field
         </h1>
@@ -113,7 +116,7 @@
 </div>
 <div class="row">
     <br>
-    <div style="border:2px solid white; cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/epidemicSimulation/')">
+    <div style="border:2px solid white; cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/epidemicSimulation/')" id="epidemicSimulation">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             Epidemic Simulation
         </h1>
@@ -121,7 +124,7 @@
         <p class="w3-large w3-text-white customfont w3-margin">This epidemic simulator shows the spread of a simulated disease through a small town of 100 people. Intuitive graphics and helpful charts provide insight into small-scale outbreaks. Check it out now!</p>
     </div>
     <br>
-    <div style="border:2px solid white; cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/covid19dashboard/')">
+    <div style="border:2px solid white; cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/covid19dashboard/')" id="covid19dashboard">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             Coronavirus Dashboard
         </h1>
