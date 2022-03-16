@@ -1,5 +1,41 @@
-<h6 class="w3-center w3-text-white customfont"><a href="#mnist"><u>MNIST Latent Space</u></a> | <a href="#catCreator"><u>Cat Creator</u></a> | <a href="#sentLSTM"><u>Sentiment Analysis AI</u></a> | <a href="#chessAI"><u>Chess AI</u></a> <br> <a href="#dualDuel"><u>Dual Duel</u></a> | <a href="#zLang"><u>Z Language</u></a>    | <a href="#photonic"><u>Photonic</u></a> | <a href="#apolloX"><u>Apollo X</u></a>
-    <br> <a href="#germCity"><u>Germ City</u></a> | <a href="#potatoz2"><u>Potatoz</u></a> | <a href="#boombaZoomba"><u>Boomba Zoomba</u></a> <br> <a href="#epidemicSimulation"><u>Epidemic Simulation</u></a> | <a href="#covid19dashboard"><u>Coronavirus Dashboard</u></a></h6>
+<h6 class="w3-center w3-text-white customfont"><a href="#city"><u>City</u></a> | <a href="#mcClone"><u>Minecraft Clone</u></a> | <a href="#raymarching"><u>Raymarching</u></a> | <a href="#fogEditor"><u>Fog Editor</u></a> | <a href="#mnist"><u>MNIST Latent Space</u></a> | <a href="#catCreator"><u>Cat Creator</u></a>    | <a href="#zLang"><u>Z Language</u></a> | <a href="#chessAI"><u>Chess AI</u></a> | <a href="#dualDuel"><u>Dual Duel</u></a> | <a href="#potatoz2"><u>Potatoz</u></a></h6>
+<div class="row">
+    <br>
+    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/city/')" id="city">
+        <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
+            Procedural City
+        </h1>
+        <img class="w3-margin" src="city.png" width="600px">
+        <p class="w3-large w3-text-white customfont w3-margin">A procedurally generated city that dynamically creates a road network and then populates the surrounding area with buildings. Pedestrians and cars then intelligently traverse the roads and sidewalks. Dynamic clouds, glowing windows, dynamic shadows,
+            and baked ambient occlusion make the city feel all the better to explore. Check it out now!</p>
+    </div>
+    <br>
+    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/minecraftClone/')" id="mcClone">
+        <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
+            Minecraft Clone
+        </h1>
+        <img class="w3-margin" width="600px" src="mcclone.png">
+        <p class="w3-large w3-text-white customfont w3-margin">A raytraced minecraft clone that uses a 3D DDA voxel intersection algorithm to render and edit a 3d world, complete with multiple block types, ambient occlusion, water, and shadows. May take 10-20 seconds to load.</p>
+    </div>
+</div>
+<div class="row">
+    <br>
+    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/raymarching/')" id="raymarching">
+        <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
+            Raymarching
+        </h1>
+        <img class="w3-margin" src="raymarching.png" width="600px">
+        <p class="w3-large w3-text-white customfont w3-margin">A simple raymarcher that linearly interpolates between signed distance functions to create morphing geometries that accurately reflect their environment.</p>
+    </div>
+    <br>
+    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/fogEditor/')" id="fogEditor">
+        <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
+            Fog Editor
+        </h1>
+        <img class="w3-margin" width="600px" src="fogeditor.png">
+        <p class="w3-large w3-text-white customfont w3-margin">An interactive program that allows the user to experiment with raymarched volumetric fog, which is generated frame-by-frame using fractal noise.</p>
+    </div>
+</div>
 <div class="row">
     <br>
     <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/mnistLatentSpace/')" id="mnist">
@@ -8,7 +44,7 @@
         </h1>
         <img class="w3-margin" src="mnistLatent.png">
         <p class="w3-large w3-text-white customfont w3-margin">Explore the wonderful world of the MNIST latent space. The MNIST dataset is an open-source colllection of 60,000 numbers. I trained a neural network on the dataset, and then by using what it learned, you can explore the space "in between" different
-            numbers. It's sort of hard to explain - just click on this experiment and you'll see.</p>
+            numbers. Click on this experiment and you'll see!</p>
     </div>
     <br>
     <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/catCreator/')" id="catCreator">
@@ -16,39 +52,46 @@
             Cat Creator with Convnets
         </h1>
         <img class="w3-margin" width="500px" src="catconv.png">
-        <p class="w3-large w3-text-white customfont w3-margin">A convultional autoencoder trained on cats... sliders to modify the latent space... you can make tons of CUSTOM CATS! Use the sliders in this app to create any cat you could possibly *imagine!</p>
-        <p class="w3-small w3-text-white customfont w3-margin">*if that cats that you imagine are all 64x64 pixels and very blurry.</p>
+        <p class="w3-large w3-text-white customfont w3-margin">Uses PCA (Principal Component Analysis) to explore the latent space of an autoencoder trained on thousands of images of cats. Drag the sliders around to create a variety of custom cats.
+        </p>
     </div>
 </div>
 <div class="row">
     <br>
-    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://sentiments-lstm.herokuapp.com/')" id="sentLSTM">
+    <div style="border:2px solid white;cursor:pointer;" class="col" onclick="window.open('https://zlanguage.github.io/')" id="zLang">
+        <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
+            The Z Programming Language
+        </h1>
+        <img class="w3-margin" src="zlanglogo.png">
+        <p class="w3-large w3-text-white customfont w3-margin">This is a full-feautured programming language that transpiles to JavaScript. The language integrates syntactic sugar like pattern matching, operator overloading, and macros while still remaining compatible with the existing JavaScript ecosystem.
+        </p>
+    </div>
+    <!--<div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://sentiments-lstm.herokuapp.com/')" id="sentLSTM">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             Sentiment Analysis AI
         </h1>
         <img class="w3-margin" width="90%" src="sentiment.png">
         <p class="w3-large w3-text-white customfont w3-margin">This LSTM was trained on a dataset of hundreds of thousands of tweets <a href="#" onclick="window.open('https://www.kaggle.com/kazanova/sentiment140')">(Sentiment140 Dataset)</a>. From these tweets, it learned to detect sentiment and tone of short
             messages. The LSTM will give a number between -1 (very negative) and 1 (very positive). Go try it out now!</p>
-    </div>
+    </div>-->
     <br>
     <div style="border:2px solid white;cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/lil-chess/')" id="chessAI">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             Chess AI
         </h1>
         <img class="w3-margin" src="board.png">
-        <p class="w3-large w3-text-white customfont w3-margin">This chess AI uses minimax and material evaluation with piece tables to choose moves. Enjoy a beautiful-ish GUI and an intuitive dashboard. Test your skill against this amazing AI that plays at the level of a third grader! (En Passant isn't and
-            will never be implemented)</p>
+        <p class="w3-large w3-text-white customfont w3-margin">This chess AI uses minimax and material evaluation with piece tables to choose moves - and it does a decent job of it. Enjoy a beautiful-ish GUI and an intuitive dashboard. (En Passant isn't and will never be implemented)</p>
     </div>
 </div>
 <div class="row">
-    <div style="border:2px solid white;cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/dualDuel/')" id="dualDuel">
+    <!--<div style="border:2px solid white;cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/dualDuel/')" id="dualDuel">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             Dual Duel
         </h1>
         <img class="w3-margin" src="dualduel.png" width="300px">
         <p class="w3-large w3-text-white customfont w3-margin">An exciting first-person shooter with fun sword combat. 10 Levels, Unique Enemies, Epic Weapons, play now! Built with <a href="https://enable3d.io/">enable3d</a>, with some of the models/animations from <a href="https://www.mixamo.com/#/">mixamo.com</a>            and <a href="https://clara.io/library">clara.io</a>.</p>
-    </div>
-    <div style="border:2px solid white;cursor:pointer;" class="col" onclick="window.open('https://zlanguage.github.io/')" id="zLang">
+    </div>-->
+    <!--<div style="border:2px solid white;cursor:pointer;" class="col" onclick="window.open('https://zlanguage.github.io/')" id="zLang">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             The Z Programming Language
         </h1>
@@ -56,8 +99,9 @@
         <p class="w3-large w3-text-white customfont w3-margin">This is a full-feautured programming language that transpiles to JavaScript. It dosen't have many practical uses, and is no longer actively maintained. It was a pet project of mine, but I worked on it for four months, so I might as well put it
             here.
         </p>
-    </div>
+    </div>-->
 </div>
+<!--
 <div class="row">
     <br>
     <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://n8python.github.io/Photonic/')" id="photonic">
@@ -95,24 +139,34 @@
             not all runs will end in a AI that can walk.</p>
     </div>
 </div>
+-->
 <div class="row">
+    <br>
+    <div style="border:2px solid white;cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/dualDuel/')" id="dualDuel">
+        <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
+            Dual Duel
+        </h1>
+        <img class="w3-margin" src="dualduel.png" width="300px">
+        <p class="w3-large w3-text-white customfont w3-margin">An exciting first-person shooter with fun combat. 10 Levels, Unique Enemies, Epic Weapons, play now! Built with <a href="https://enable3d.io/">enable3d</a>, with some of the models/animations from <a href="https://www.mixamo.com/#/">mixamo.com</a>            and <a href="https://clara.io/library">clara.io</a>.</p>
+    </div>
     <br>
     <div style="border:2px solid white; cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/potatoz2/')" id="potatoz2">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             Potatoz
         </h1>
         <img class="w3-margin" src="potatozshot.png">
-        <p class="w3-large w3-text-white customfont w3-margin">This incremental clicker I made got a bit of attention and recieved over 20,000 views online. Play now, and start the potatopocalypse.</p>
+        <p class="w3-large w3-text-white customfont w3-margin">This incremental clicker I made got a lot of attention and recieved over 20,000 views online. Play now, and start the potatopocalypse.</p>
     </div>
     <br>
-    <div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://boomba-zoomba.herokuapp.com/')" id="boombaZoomba">
+    <!--<div style="border:2px solid white; cursor:pointer;" class="col" onclick="window.open('https://boomba-zoomba.herokuapp.com/')" id="boombaZoomba">
         <h1 class="w3-margin-left w3-text-white w3-xxlarge customfont">
             Boomba Zoomba
         </h1>
         <img class="w3-margin" src="boomba-zoomba.png">
         <p class="w3-large w3-text-white customfont w3-margin">Become the ultimate warrior by commandeering a ragdoll to beat up other ragdolls. Enjoy singleplayer & multiplayer modes - and unlock all sorts of fun and weird custom hats.</p>
-    </div>
+    </div>-->
 </div>
+<!--
 <div class="row">
     <br>
     <div style="border:2px solid white; cursor:pointer" class="col" onclick="window.open('https://n8python.github.io/epidemicSimulation/')" id="epidemicSimulation">
@@ -131,3 +185,4 @@
         <p class="w3-large w3-text-white customfont w3-margin">Like so many people, I decided to make a coronavirus dashboard. But I added some cool features (map replays, projections, and more!) - so check it out!</p>
     </div>
 </div>
+-->

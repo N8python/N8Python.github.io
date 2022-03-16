@@ -36,6 +36,18 @@ projects.onclick = async() => {
         }, 100)
     }
 }
+window.onload = async() => {
+    if (mode !== "projects") {
+        mode = "projects";
+        const html = await fetch("projects.html");
+        const text = await html.text();
+        main.classList.remove("w3-animate-left")
+        setTimeout(() => {
+            main.innerHTML = text;
+            main.classList.add("w3-animate-left")
+        }, 100)
+    }
+}
 const posts = [
     ["Phaser Review", "March 25, 2020"],
     ["Typing in Programming Languages", "March 11, 2020"],
